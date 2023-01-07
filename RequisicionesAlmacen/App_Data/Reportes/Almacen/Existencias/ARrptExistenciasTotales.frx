@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<inherited BaseReport="..\..\Encabezados\EncabezadoVertical.frx" BaseReportAbsolutePath="C:\Users\elias\OneDrive\Documentos\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacen\App_Data\Reportes\Encabezados\EncabezadoVertical.frx" ScriptLanguage="CSharp" DoublePass="true" ReportInfo.Created="08/18/2021 11:33:22" ReportInfo.Modified="10/05/2021 17:06:54" ReportInfo.CreatorVersion="2021.3.26.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqAFHGp6KQj27H4qUwAIR20hSnyrpNtgmeY+I5zyTmYE0HuZfX1hs9fAqnt4DRtzHm+N9I8i4ack24rSPZ1JGk0ualiXdFj40H+ZtG4+W3fOeseD6oWeWF+cPgUnuQ0CgJObebEFx8xk4CV+PeZUXLenIscldvNbO3IrFTyErZSkVy9sz+v7228gZYiuRoOXpb">
+      <TableDataSource Name="Table" Alias="ARfnRptExistenciasTotales" DataType="System.Int32" Enabled="true" SelectCommand="SELECT *&#13;&#10;FROM ARfnRptExistenciasTotales(@pUsuarioId)&#13;&#10;ORDER BY Codigo">
+        <Column Name="Usuario" DataType="System.String"/>
+        <Column Name="Reporte" DataType="System.String"/>
+        <Column Name="FechaImpresion" DataType="System.String"/>
+        <Column Name="HoraImpresion" DataType="System.String"/>
+        <Column Name="Codigo" DataType="System.String"/>
+        <Column Name="Descripcion" DataType="System.String"/>
+        <Column Name="UM" DataType="System.String"/>
+        <Column Name="Existencia" DataType="System.Decimal"/>
+        <Column Name="Minimo" DataType="System.Double"/>
+        <Column Name="Maximo" DataType="System.Double"/>
+        <Column Name="Diferencia" DataType="System.Double"/>
+        <CommandParameter Name="@pUsuarioId" DataType="8" Expression="[@pUsuarioId]" DefaultValue="0"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+    <Parameter Name="@pUsuarioId" DataType="System.Int32" Expression="0"/>
+  </Dictionary>
+  <inherited Name="Page1">
+    <inherited Name="ReportTitle1" Height="147.42">
+      <inherited Name="Text1"/>
+      <inherited Name="Text2"/>
+      <inherited Name="Text3"/>
+      <inherited Name="Picture2"/>
+      <TextObject Name="Text5" ZOrder="4" Left="9.45" Top="103.95" Width="56.7" Height="18.9" Text="Usuario:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text23" ZOrder="5" Left="9.45" Top="122.85" Width="56.7" Height="18.9" Text="Reporte:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <LineObject Name="Line1" ZOrder="6" Left="599.13" Top="103.95" Height="37.8" Diagonal="true"/>
+      <TextObject Name="Text12" ZOrder="7" Left="604.8" Top="103.95" Width="122.85" Height="18.9" Text="[ARfnRptExistenciasTotales.FechaImpresion]" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="Text7" ZOrder="8" Left="548.1" Top="103.95" Width="47.25" Height="18.9" Text="Fecha" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text8" ZOrder="9" Left="548.1" Top="122.85" Width="47.25" Height="18.9" Text="Hora" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text13" ZOrder="10" Left="604.8" Top="122.85" Width="122.85" Height="18.9" Text="[ARfnRptExistenciasTotales.HoraImpresion]" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="Text26" ZOrder="11" Left="75.6" Top="103.95" Width="415.8" Height="18.9" Text="[ARfnRptExistenciasTotales.Usuario]" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="Text24" ZOrder="12" Left="75.6" Top="122.85" Width="415.8" Height="18.9" Text="[ARfnRptExistenciasTotales.Reporte]" VertAlign="Center" Font="Arial, 8pt"/>
+    </inherited>
+    <ColumnHeaderBand Name="ColumnHeader1" ZOrder="-1" Top="149.02" Width="740.5" Height="33.03">
+      <LineObject Name="Line3" Left="9.45" Width="718.2"/>
+      <TextObject Name="Text45" Left="9.45" Top="4.45" Width="66.15" Height="24.57" Text="CÓDIGO" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <LineObject Name="Line2" Left="9.45" Top="33.03" Width="718.2"/>
+      <TextObject Name="Text91" Left="85.05" Top="4.54" Width="217.35" Height="24.57" Text="DESCRIPCIÓN" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text92" Left="311.85" Top="4.54" Width="75.6" Height="24.57" Text="UNIDAD&#13;&#10;DE MEDIDA" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text93" Left="396.9" Top="4.54" Width="75.6" Height="24.57" Text="EXISTENCIA" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text99" Left="481.95" Top="4.54" Width="75.6" Height="24.57" Text="MÍNIMO" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text100" Left="567" Top="4.54" Width="75.6" Height="24.57" Text="MÁXIMO" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text101" Left="652.05" Top="4.54" Width="75.6" Height="24.57" Text="DIFERENCIA" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+    </ColumnHeaderBand>
+    <DataBand Name="Data1" ZOrder="0" Top="183.65" Width="740.5" Height="30.24" DataSource="Table">
+      <LineObject Name="Line4" Left="9.45" Top="26.46" Width="718.2" Border.Style="Dash"/>
+      <TextObject Name="Text37" Left="9.45" Top="3.78" Width="66.15" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasTotales.Codigo]" VertAlign="Center" Font="Arial, 7pt"/>
+      <TextObject Name="Text96" Left="85.05" Top="3.78" Width="217.35" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasTotales.Descripcion]" VertAlign="Center" Font="Arial, 7pt"/>
+      <TextObject Name="Text97" Left="311.85" Top="3.78" Width="75.6" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasTotales.UM]" VertAlign="Center" Font="Arial, 7pt"/>
+      <TextObject Name="Text98" Left="396.9" Top="3.78" Width="75.6" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasTotales.Existencia]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 7pt"/>
+      <TextObject Name="Text102" Left="481.95" Top="3.78" Width="75.6" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasTotales.Minimo]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 7pt"/>
+      <TextObject Name="Text103" Left="567" Top="3.78" Width="75.6" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasTotales.Maximo]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 7pt"/>
+      <TextObject Name="Text104" Left="652.05" Top="3.78" Width="75.6" Height="17.01" VisibleExpression="[ARfnRptExistenciasTotales.Diferencia] &lt; 0" CanGrow="true" Text="[ARfnRptExistenciasTotales.Diferencia]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 7pt"/>
+      <TextObject Name="Text105" Left="652.05" Top="3.78" Width="75.6" Height="17.01" VisibleExpression="[ARfnRptExistenciasTotales.Diferencia] &gt; 0" CanGrow="true" Text="[ARfnRptExistenciasTotales.Diferencia]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 7pt" TextFill.Color="Red"/>
+      <TextObject Name="Text106" Left="652.05" Top="3.78" Width="75.6" Height="17.01" VisibleExpression="[ARfnRptExistenciasTotales.Diferencia] == 0" CanGrow="true" Text="-" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 7pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" ZOrder="-1" Top="215.49" Width="740.5" Height="18.9">
+      <TextObject Name="Text6" Left="557.55" Width="75.6" Height="17.01" Text="Página" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text73" Left="642.6" Width="85.05" Height="17.01" CanGrow="true" Text="[PageNofM]" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt"/>
+    </PageFooterBand>
+  </inherited>
+</inherited>

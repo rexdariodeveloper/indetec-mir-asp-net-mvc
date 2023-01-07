@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SACGSYSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Entidad">
+    <Key>
+      <PropertyRef Name="EntidadId" />
+    </Key>
+    <Property Name="EntidadId" Type="String" MaxLength="7" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ejercicio" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="SACGSYSContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Entidad" EntityType="Self.Entidad" />
+  </EntityContainer>
+</Schema>

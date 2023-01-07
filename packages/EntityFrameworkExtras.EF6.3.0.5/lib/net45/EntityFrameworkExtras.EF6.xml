@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EntityFrameworkExtras.EF6</name>
+    </assembly>
+    <members>
+        <member name="T:EntityFrameworkExtras.EF6.DatabaseExtensions">
+            <summary>
+            Extension methods for the Entity Framework Database class.
+            </summary>
+        </member>
+        <member name="M:EntityFrameworkExtras.EF6.DatabaseExtensions.ExecuteStoredProcedure(System.Data.Entity.Database,System.Object)">
+            <summary>
+            Executes the specified stored procedure against a database. 
+            </summary>
+            <param name="database">The database to execute against.</param>
+            <param name="storedProcedure">The stored procedure to execute.</param>
+        </member>
+        <member name="M:EntityFrameworkExtras.EF6.DatabaseExtensions.ExecuteStoredProcedure``1(System.Data.Entity.Database,System.Object)">
+            <summary>
+            Executes the specified stored procedure against a database. 
+            </summary>
+            <param name="database">The database to execute against.</param>
+            <param name="storedProcedure">The stored procedure to execute.</param>
+        </member>
+        <member name="M:EntityFrameworkExtras.EF6.DatabaseExtensions.ExecuteStoredProcedureFirstOrDefault``1(System.Data.Entity.Database,System.Object)">
+            <summary>
+            Executes the specified stored procedure against a database
+            and returns the first or default value
+            </summary>
+            <typeparam name="T">Type of the data returned from the stored procedure.</typeparam>
+            <param name="database">The database to execute against.</param>
+            <param name="storedProcedure">The stored procedure to execute.</param>
+            <returns></returns>
+        </member>
+        <member name="M:EntityFrameworkExtras.EF6.DatabaseExtensions.ExecuteStoredProcedureAsync(System.Data.Entity.Database,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            Executes the specified stored procedure against a database asynchronously
+            and returns an enumerable of T representing the data returned.
+            </summary>
+            <typeparam name="T">Type of the data returned from the stored procedure.</typeparam>
+            <param name="database">The database to execute against.</param>
+            <param name="storedProcedure">The stored procedure to execute.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:EntityFrameworkExtras.EF6.DatabaseExtensions.ExecuteStoredProcedureFirstOrDefaultAsync``1(System.Data.Entity.Database,System.Object,System.Threading.CancellationToken)" -->
+        <member name="M:EntityFrameworkExtras.EF6.DatabaseExtensions.ExecuteStoredProcedureAsync``1(System.Data.Entity.Database,System.Object,System.Threading.CancellationToken)">
+            <summary>
+            Executes the specified stored procedure against a database asynchronously
+            and returns the first or default value
+            </summary>
+            <typeparam name="T">Type of the data returned from the stored procedure.</typeparam>
+            <param name="database">The database to execute against.</param>
+            <param name="storedProcedure">The stored procedure to execute.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns></returns>
+        </member>
+        <member name="M:EntityFrameworkExtras.EF6.ObjectContextExtentions.ExecuteStoredProcedure(System.Data.Entity.Core.Objects.ObjectContext,System.Object)">
+            <summary>
+            Executes the specified stored procedure against a database.
+            </summary>
+            <param name="context">The ObjectContext to execute against.</param>
+            <param name="storedProcedure">The stored procedure to execute.</param>
+        </member>
+        <member name="M:EntityFrameworkExtras.EF6.ObjectContextExtentions.ExecuteStoredProcedure``1(System.Data.Entity.Core.Objects.ObjectContext,System.Object)">
+            <summary>
+            Executes the specified stored procedure against a database
+            and returns an enumerable of T representing the data returned.
+            </summary>
+            <typeparam name="T">Type of the data returned from the stored procedure.</typeparam>
+            <param name="context">The ObjectContext to execute against.</param>
+            <param name="storedProcedure">The stored procedure to execute.</param>
+            <returns></returns>
+        </member>
+        <member name="P:EntityFrameworkExtras.EF6.StoredProcedureParameterAttribute.Size">
+            <summary>
+            Size of the parameter, typically used for output parameters. If an output parameter has a size of 0 then its default to -1 (equivalent to MAX)
+            </summary>
+        </member>
+        <member name="P:EntityFrameworkExtras.EF6.StoredProcedureParameterAttribute.ParameterName">
+            <summary>
+            Specifies the name of the Procedure parameter, if different than the property name. 
+            </summary>
+        </member>
+        <member name="P:EntityFrameworkExtras.EF6.StoredProcedureParameterAttribute.Direction">
+            <summary>Gets or sets the direction.</summary>
+        </member>
+        <member name="P:EntityFrameworkExtras.EF6.StoredProcedureParameterAttribute.Precision">
+            <summary>Gets or sets the parameter precision.</summary>
+        </member>
+        <member name="P:EntityFrameworkExtras.EF6.StoredProcedureParameterAttribute.Scale">
+            <summary>Gets or sets the parameter scale.</summary>
+        </member>
+    </members>
+</doc>

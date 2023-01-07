@@ -1,0 +1,12 @@
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\SACG.GDALib\bin\Debug\SACG.GDALib.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\SACG.GDALib\bin\Debug\SACG.GDALib.pdb
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\SACG.GDALib\obj\Debug\SACG.GDALib.csproj.AssemblyReference.cache
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\SACG.GDALib\obj\Debug\SACG.GDALib.csproj.CoreCompileInputs.cache
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\SACG.GDALib\obj\Debug\SACG.GDALib.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\SACG.GDALib\obj\Debug\SACG.GDALib.pdb
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\SACG.GDALib\bin\Debug\SACG.GDALib.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\SACG.GDALib\bin\Debug\SACG.GDALib.pdb
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\SACG.GDALib\obj\Debug\SACG.GDALib.csproj.AssemblyReference.cache
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\SACG.GDALib\obj\Debug\SACG.GDALib.csproj.CoreCompileInputs.cache
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\SACG.GDALib\obj\Debug\SACG.GDALib.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\SACG.GDALib\obj\Debug\SACG.GDALib.pdb

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<inherited BaseReport="..\..\Encabezados\EncabezadoHorizontal.frx" BaseReportAbsolutePath="C:\Users\elias\OneDrive\Documentos\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacen\App_Data\Reportes\Encabezados\EncabezadoHorizontal.frx" ScriptLanguage="CSharp" DoublePass="true" ReportInfo.Created="08/18/2021 11:33:22" ReportInfo.Modified="10/05/2021 13:41:20" ReportInfo.CreatorVersion="2021.3.26.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqAFHGp6KQj27H4qUwAIR20hSnyrpNtgmeY+I5zyTmYE0HuZfX1hs9fAqnt4DRtzHm+N9I8i4ack24rSPZ1JGk0ualiXdFj40H+ZtG4+W3fOeseD6oWeWF+cPgUnuQ0CgJObebEFx8xk4CV+PeZUXLenIscldvNbO3IrFTyErZSkVsT22xNj9SPWn1jG2tDXAs">
+      <TableDataSource Name="Table" Alias="ARfnRptExistenciasPresupuestales" DataType="System.Int32" Enabled="true" SelectCommand="SELECT *&#13;&#10;FROM ARfnRptExistenciasPresupuestales(@pUnidadAdministrativaId, @pProyectoId, @pFuenteFinanciamientoId, @pTipoGastoId, @pUsuarioId)&#13;&#10;ORDER BY UnidadAdministrativa,&#13;&#10;         Proyecto,&#13;&#10;         FuenteFinanciamiento,&#13;&#10;         TipoGasto,&#13;&#10;         Codigo">
+        <Column Name="Usuario" DataType="System.String"/>
+        <Column Name="Reporte" DataType="System.String"/>
+        <Column Name="FechaImpresion" DataType="System.String"/>
+        <Column Name="HoraImpresion" DataType="System.String"/>
+        <Column Name="Descripcion" DataType="System.String"/>
+        <Column Name="Codigo" DataType="System.String"/>
+        <Column Name="UM" DataType="System.String"/>
+        <Column Name="Existencia" DataType="System.Decimal"/>
+        <Column Name="Minimo" DataType="System.Double"/>
+        <Column Name="Maximo" DataType="System.Double"/>
+        <Column Name="Diferencia" DataType="System.Double"/>
+        <Column Name="UnidadAdministrativa" DataType="System.String"/>
+        <Column Name="Proyecto" DataType="System.String"/>
+        <Column Name="FuenteFinanciamiento" DataType="System.String"/>
+        <Column Name="TipoGasto" DataType="System.String"/>
+        <Column Name="UnidadAdministrativaProyecto" DataType="System.String"/>
+        <CommandParameter Name="@pUnidadAdministrativaId" DataType="22" Expression="[@pUnidadAdministrativaId]"/>
+        <CommandParameter Name="@pProyectoId" DataType="22" Expression="[@pProyectoId]"/>
+        <CommandParameter Name="@pFuenteFinanciamientoId" DataType="22" Expression="[@pFuenteFinanciamientoId]"/>
+        <CommandParameter Name="@pTipoGastoId" DataType="22" Expression="[@pTipoGastoId]"/>
+        <CommandParameter Name="@pUsuarioId" DataType="8" Expression="[@pUsuarioId]" DefaultValue="0"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+    <Parameter Name="@pUnidadAdministrativaId" DataType="System.String"/>
+    <Parameter Name="@pProyectoId" DataType="System.String"/>
+    <Parameter Name="@pFuenteFinanciamientoId" DataType="System.String"/>
+    <Parameter Name="@pTipoGastoId" DataType="System.String"/>
+    <Parameter Name="@pUsuarioId" DataType="System.Int32" Expression="2"/>
+  </Dictionary>
+  <inherited Name="Page1">
+    <inherited Name="ReportTitle1" Height="151.2">
+      <inherited Name="Text1"/>
+      <inherited Name="Text2"/>
+      <inherited Name="Text3"/>
+      <inherited Name="Picture2"/>
+      <LineObject Name="Line1" ZOrder="4" Left="1115.1" Top="103.95" Height="37.8" Diagonal="true"/>
+      <TextObject Name="Text12" ZOrder="5" Left="1120.77" Top="103.95" Width="122.85" Height="18.9" Text="[ARfnRptExistenciasPresupuestales.FechaImpresion]" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="Text5" ZOrder="6" Left="18.9" Top="103.95" Width="52.92" Height="18.9" Text="Usuario:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text7" ZOrder="7" Left="1064.07" Top="103.95" Width="47.25" Height="18.9" Text="Fecha" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text26" ZOrder="8" Left="81.27" Top="103.95" Width="869.4" Height="18.9" Text="[ARfnRptExistenciasPresupuestales.Usuario]" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="Text8" ZOrder="9" Left="1064.07" Top="122.85" Width="47.25" Height="18.9" Text="Hora" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text13" ZOrder="10" Left="1120.77" Top="122.85" Width="122.85" Height="18.9" Text="[ARfnRptExistenciasPresupuestales.HoraImpresion]" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="Text23" ZOrder="11" Left="18.9" Top="122.85" Width="52.92" Height="18.9" Text="Reporte:" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text24" ZOrder="12" Left="81.27" Top="122.85" Width="869.4" Height="18.9" Text="[ARfnRptExistenciasPresupuestales.Reporte]" VertAlign="Center" Font="Arial, 8pt"/>
+    </inherited>
+    <ColumnHeaderBand Name="ColumnHeader1" ZOrder="-1" Top="152.8" Width="1268.57" Height="30.35">
+      <LineObject Name="Line3" Left="18.9" Width="1228.5"/>
+      <LineObject Name="Line2" Left="18.9" Top="30.35" Width="1228.5"/>
+      <TextObject Name="Text45" Left="18.9" Top="3.78" Width="75.6" Height="24.57" Text="CÓDIGO" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text91" Left="103.95" Top="3.78" Width="406.35" Height="24.57" Text="DESCRIPCIÓN" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text92" Left="519.75" Top="3.78" Width="85.05" Height="24.57" Text="UNIDAD&#13;&#10;DE MEDIDA" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text93" Left="841.05" Top="3.78" Width="94.5" Height="24.57" Text="EXISTENCIA" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text99" Left="945" Top="3.78" Width="94.5" Height="24.57" Text="MÍNIMO" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text100" Left="1048.95" Top="3.78" Width="94.5" Height="24.57" Text="MÁXIMO" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text101" Left="1152.9" Top="3.78" Width="94.5" Height="24.57" Text="DIFERENCIA" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text107" Left="614.25" Top="3.78" Width="113.4" Height="24.57" Text="FUENTE&#13;&#10;FINANCIAMIENTO" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text108" Left="737.1" Top="3.78" Width="94.5" Height="24.57" Text="TIPO GASTO" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+    </ColumnHeaderBand>
+    <GroupHeaderBand Name="GroupHeader1" ZOrder="0" Top="184.75" Width="1268.57" Height="37.8" Guides="18.9,9.45" Condition="[ARfnRptExistenciasPresupuestales.UnidadAdministrativaProyecto]">
+      <TextObject Name="Text111" Left="18.9" Top="18.9" Width="141.75" Height="15.12" Text="UNIDAD ADMINISTRATIVA:" VertAlign="Center" Font="Arial, 7.2pt, style=Bold"/>
+      <TextObject Name="Text112" Left="160.65" Top="18.9" Width="75.6" Height="15.12" Text="[ARfnRptExistenciasPresupuestales.UnidadAdministrativa]" VertAlign="Center" Font="Arial, 7.2pt, style=Bold"/>
+      <TextObject Name="Text113" Left="292.95" Top="18.9" Width="75.6" Height="15.12" Text="PROYECTO:" VertAlign="Center" Font="Arial, 7.2pt, style=Bold"/>
+      <TextObject Name="Text114" Left="368.55" Top="18.9" Width="75.6" Height="15.12" Text="[ARfnRptExistenciasPresupuestales.Proyecto]" VertAlign="Center" Font="Arial, 7.2pt, style=Bold"/>
+      <LineObject Name="Line5" Left="18.9" Top="35.91" Width="1228.5" Border.Style="Dash"/>
+      <DataBand Name="Data1" Top="224.15" Width="1268.57" Height="26.46" DataSource="Table">
+        <LineObject Name="Line4" Left="18.9" Top="24.57" Width="1228.5" Border.Style="Dash"/>
+        <TextObject Name="Text37" Left="18.9" Top="3.78" Width="75.6" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasPresupuestales.Codigo]" VertAlign="Center" Font="Arial, 7pt"/>
+        <TextObject Name="Text96" Left="103.95" Top="3.78" Width="406.35" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasPresupuestales.Descripcion]" VertAlign="Center" Font="Arial, 7pt"/>
+        <TextObject Name="Text97" Left="519.75" Top="3.78" Width="85.05" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasPresupuestales.UM]" VertAlign="Center" Font="Arial, 7pt"/>
+        <TextObject Name="Text98" Left="841.05" Top="3.78" Width="94.5" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasPresupuestales.Existencia]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 7pt"/>
+        <TextObject Name="Text102" Left="945" Top="3.78" Width="94.5" Height="21.27" CanGrow="true" Text="[ARfnRptExistenciasPresupuestales.Minimo]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 7pt"/>
+        <TextObject Name="Text103" Left="1048.95" Top="3.78" Width="94.5" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasPresupuestales.Maximo]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 7pt"/>
+        <TextObject Name="Text104" Left="1152.9" Top="3.78" Width="94.5" Height="17.01" VisibleExpression="[ARfnRptExistenciasPresupuestales.Diferencia] &lt; 0" CanGrow="true" Text="[ARfnRptExistenciasPresupuestales.Diferencia]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 7pt"/>
+        <TextObject Name="Text105" Left="1152.9" Top="3.78" Width="94.5" Height="17.01" VisibleExpression="[ARfnRptExistenciasPresupuestales.Diferencia] &gt; 0" CanGrow="true" Text="[ARfnRptExistenciasPresupuestales.Diferencia]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 7pt" TextFill.Color="Red"/>
+        <TextObject Name="Text106" Left="1152.9" Top="3.78" Width="94.5" Height="17.01" VisibleExpression="[ARfnRptExistenciasPresupuestales.Diferencia] == 0" CanGrow="true" Text="-" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 7pt"/>
+        <TextObject Name="Text109" Left="614.25" Top="3.78" Width="113.4" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasPresupuestales.FuenteFinanciamiento]" VertAlign="Center" Font="Arial, 7pt"/>
+        <TextObject Name="Text110" Left="737.1" Top="3.78" Width="94.5" Height="17.01" CanGrow="true" Text="[ARfnRptExistenciasPresupuestales.TipoGasto]" VertAlign="Center" Font="Arial, 7pt"/>
+      </DataBand>
+    </GroupHeaderBand>
+    <PageFooterBand Name="PageFooter1" ZOrder="-1" Top="252.21" Width="1268.57" Height="18.9">
+      <TextObject Name="Text6" Left="1077.3" Width="75.6" Height="17.01" Text="Página" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text73" Left="1162.35" Width="85.05" Height="17.01" CanGrow="true" Text="[PageNofM]" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt"/>
+    </PageFooterBand>
+  </inherited>
+</inherited>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SACGSYSModelStoreContainer" CdmEntityContainer="SACGSYSContext">
+    <EntitySetMapping Name="Entidad">
+      <EntityTypeMapping TypeName="SACGSYSModel.Entidad">
+        <MappingFragment StoreEntitySet="Entidad">
+          <ScalarProperty Name="EntidadId" ColumnName="EntidadId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Ejercicio" ColumnName="Ejercicio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

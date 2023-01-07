@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" DoublePass="true" ReportInfo.Created="07/21/2021 11:21:19" ReportInfo.Modified="08/13/2021 23:23:37" ReportInfo.CreatorVersion="2021.2.13.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqAFHGp6KQj27H4qUwAIR20hSnyrpNtgmeY+I5zyTmYE0HuZfX1hs9fAqnt4DRtzHmTgEuUTNiCrQevjMjaWhdoewJ8X2OevTPo7RJBdOoAWIuspTObahM/2dsJunwOVy8HgqRErGgupEbnnCfw6BdLM1qK79Jywr7s7Xg+Ybvn41NcbOVqlrIX8JHI7Zs0VIWVJUmJYKU0rVasaw7v3jc6g==">
+      <TableDataSource Name="Table1" Alias="ARfnRptLibroAlmacen" DataType="System.Int32" Enabled="true" SelectCommand="SELECT * &#13;&#10;FROM ARfnRptLibroAlmacen(@pAlmacenId) &#13;&#10;ORDER BY Descripcion">
+        <Column Name="ProductoId" DataType="System.String"/>
+        <Column Name="Descripcion" DataType="System.String"/>
+        <Column Name="UnidadMedida" DataType="System.String"/>
+        <Column Name="Proyecto" DataType="System.String"/>
+        <Column Name="FuenteFinanciamiento" DataType="System.String"/>
+        <Column Name="UnidadAdministrativa" DataType="System.String"/>
+        <Column Name="TipoGasto" DataType="System.String"/>
+        <Column Name="CuentaPresupuestalId" DataType="System.Int32"/>
+        <Column Name="Existencia" DataType="System.Decimal"/>
+        <Column Name="ProyectoId" DataType="System.String"/>
+        <Column Name="FuenteFinanciamientoId" DataType="System.String"/>
+        <Column Name="UnidadAdministrativaId" DataType="System.String"/>
+        <Column Name="TipoGastoId" DataType="System.String"/>
+        <Column Name="Clave" DataType="System.String"/>
+        <CommandParameter Name="@pAlmacenId" DataType="22" Size="4" Expression="[@pAlmacenId]"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+    <Parameter Name="@pEnte" DataType="System.String"/>
+    <Parameter Name="@pAlmacen" DataType="System.String"/>
+    <Parameter Name="@pUsuario" DataType="System.String"/>
+    <Parameter Name="@pAlmacenId" DataType="System.Int32" Expression="0"/>
+    <Total Name="TotalArticulo" Expression="[ARfnRptLibroAlmacen.Existencia]" Evaluator="Data1" PrintOn="GroupFooter2"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="279.4" PaperHeight="215.9" RawPaperSize="1" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="980.53" Height="122.85" PrintOn="FirstPage">
+      <TextObject Name="Text1" Top="37.8" Width="982.8" Height="18.9" Text="Hoja para Inventario" HorzAlign="Center" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="Text14" Width="982.8" Height="47.25" Text="[@pEnte]" HorzAlign="Center" VertAlign="Center" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="Text3" Left="18.9" Top="66.15" Width="71.82" Height="18.9" Text="Almacén:" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text25" Left="90.72" Top="66.15" Width="661.5" Height="18.9" Text="[@pAlmacen]" VertAlign="Center" Font="Arial, 8pt"/>
+      <LineObject Name="Line1" Left="831.6" Top="85.05" Height="37.8" Diagonal="true"/>
+      <TextObject Name="Text12" Left="827.82" Top="85.05" Width="122.85" Height="18.9" Text="[Date]" Format="Date" Format.Format="d" HorzAlign="Right" Font="Arial, 8pt"/>
+      <TextObject Name="Text5" Left="18.9" Top="85.05" Width="71.82" Height="18.9" Text="Usuario:" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text7" Left="752.22" Top="85.05" Width="75.6" Height="18.9" Text="Fecha" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text26" Left="90.72" Top="85.05" Width="661.5" Height="18.9" Text="[@pUsuario]" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="Text8" Left="752.22" Top="103.95" Width="75.6" Height="18.9" Text="Hora" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text13" Left="827.82" Top="103.95" Width="122.85" Height="18.9" Text="[Date]" Format="Time" Format.Format="T" HorzAlign="Right" Font="Arial, 8pt"/>
+      <TextObject Name="Text23" Left="18.9" Top="103.95" Width="71.82" Height="18.9" Text="Reporte:" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text24" Left="90.72" Top="103.95" Width="661.5" Height="18.9" Text="rptLibroAlmacen" Font="Arial, 8pt"/>
+    </ReportTitleBand>
+    <ColumnHeaderBand Name="ColumnHeader1" Top="124.94" Width="980.53" Height="32.02">
+      <TextObject Name="Text32" Left="670.95" Top="5.29" Width="66.15" Height="24.57" Text="TIPO &#13;&#10;GASTO" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text35" Left="737.1" Top="5.29" Width="103.95" Height="24.57" Text="EXISTENCIA" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text36" Left="841.05" Top="5.29" Width="113.4" Height="24.57" Text="CONTEO" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <LineObject Name="Line3" Left="18.9" Top="1" Width="935.55"/>
+      <LineObject Name="Line2" Left="18.9" Top="31.35" Width="935.55"/>
+      <TextObject Name="Text45" Left="18.9" Top="5.45" Width="274.05" Height="24.57" Text="PROYECTO " Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text46" Left="302.4" Top="5.29" Width="198.45" Height="24.57" Text="FUENTE FINANCIAMIENTO" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text47" Left="510.3" Top="5.29" Width="151.2" Height="24.57" Text="UNIDAD ADMINISTRATIVA" HorzAlign="Center" Font="Arial, 8pt, style=Bold"/>
+    </ColumnHeaderBand>
+    <GroupHeaderBand Name="GroupHeader2" Top="159.04" Width="980.53" Height="5.67" Condition="[ARfnRptLibroAlmacen.Descripcion]">
+      <GroupHeaderBand Name="GroupHeader1" Top="166.8" Width="980.53" Height="13.23" KeepWithData="true" Condition="[ARfnRptLibroAlmacen.UnidadMedida]">
+        <TextObject Name="Text28" Left="18.9" Width="935.55" Height="13.23" Fill.Color="LightGray" Text="[ARfnRptLibroAlmacen.ProductoId] - [[ARfnRptLibroAlmacen.Descripcion]] ( [ARfnRptLibroAlmacen.UnidadMedida] )" Font="Arial, 8pt, style=Bold"/>
+        <DataBand Name="Data1" Top="182.12" Width="980.53" Height="16.45" CanGrow="true" DataSource="Table1">
+          <TextObject Name="Text37" Left="18.9" Top="2" Width="274.05" Height="13.23" CanGrow="true" Text="[ARfnRptLibroAlmacen.Proyecto]" Font="Arial, 7pt"/>
+          <TextObject Name="Text39" Left="510.3" Top="1.89" Width="151.2" Height="13.23" CanGrow="true" Text="[ARfnRptLibroAlmacen.UnidadAdministrativa]" Font="Arial, 7pt"/>
+          <TextObject Name="Text42" Left="737.1" Top="2" Width="103.95" Height="13.23" Text="[ARfnRptLibroAlmacen.Existencia]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Arial, 7pt" Trimming="EllipsisCharacter"/>
+          <TextObject Name="Text38" Left="302.4" Top="1.89" Width="198.45" Height="13.23" CanGrow="true" Text="[ARfnRptLibroAlmacen.FuenteFinanciamiento]" Font="Arial, 7pt"/>
+          <TextObject Name="Text40" Left="670.95" Top="2" Width="66.15" Height="13.23" Text="[ARfnRptLibroAlmacen.TipoGasto]" HorzAlign="Center" VertAlign="Center" Font="Arial, 7pt"/>
+          <LineObject Name="Line4" Left="18.9" Top="15.9" Width="935.55" Border.Style="Dash"/>
+        </DataBand>
+        <GroupFooterBand Name="GroupFooter1" Top="200.65" Width="980.53"/>
+      </GroupHeaderBand>
+      <GroupFooterBand Name="GroupFooter2" Top="202.74" Width="980.53" Height="17.01">
+        <TextObject Name="Text43" Left="841.05" Width="113.4" Height="17.01" Fill.Color="LightGray" Text="[TotalArticulo]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="4" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+        <TextObject Name="Text44" Left="746.55" Width="94.5" Height="17.01" Fill.Color="LightGray" Text="TOTAL:" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      </GroupFooterBand>
+    </GroupHeaderBand>
+    <PageFooterBand Name="PageFooter1" Top="221.84" Width="980.53" Height="17.01" CanShrink="true">
+      <TextObject Name="Text11" Left="827.82" Width="122.85" Height="17.01" CanGrow="true" Text="[PageNofM]" HorzAlign="Right" Font="Arial, 8pt"/>
+      <TextObject Name="Text6" Left="752.22" Width="75.6" Height="17.01" Text="Página" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

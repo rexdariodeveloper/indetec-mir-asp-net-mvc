@@ -1,0 +1,145 @@
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.csproj.AssemblyReference.cache
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.csproj.CoreCompileInputs.cache
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\RequisicionesAlmacenBL.dll.config
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\RequisicionesAlmacenBL.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\RequisicionesAlmacenBL.pdb
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFramework.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\ExpressiveAnnotations.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\ExpressiveAnnotations.MvcUnobtrusive.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Helpers.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Mvc.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Razor.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFramework.xml
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\ExpressiveAnnotations.xml
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\ExpressiveAnnotations.MvcUnobtrusive.xml
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Helpers.xml
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Mvc.xml
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Razor.xml
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.xml
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.csproj.CopyComplete
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.dll
+C:\Users\Rene\Desktop\New folder\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.pdb
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\RequisicionesAlmacenBL.dll.config
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\RequisicionesAlmacenBL.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\RequisicionesAlmacenBL.pdb
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFramework.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFrameworkExtras.EF6.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\ExpressiveAnnotations.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\ExpressiveAnnotations.MvcUnobtrusive.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\SACG.GDALib.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\SACG.sysSacg.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Buffers.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Memory.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Text.Json.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.ValueTuple.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Helpers.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Mvc.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Razor.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\SACG.GDALib.pdb
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\SACG.sysSacg.pdb
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\SACG.sysSacg.dll.config
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFramework.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFrameworkExtras.EF6.pdb
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFrameworkExtras.EF6.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\ExpressiveAnnotations.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\ExpressiveAnnotations.MvcUnobtrusive.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Buffers.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Memory.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Text.Json.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.ValueTuple.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Helpers.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Mvc.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Razor.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.csproj.AssemblyReference.cache
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.csproj.CoreCompileInputs.cache
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.csproj.CopyComplete
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.dll
+C:\Users\Rene\Desktop\PIXVS\PROJECTS\INDETECMIR\PROJECT\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.pdb
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\RequisicionesAlmacenBL.dll.config
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\RequisicionesAlmacenBL.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\RequisicionesAlmacenBL.pdb
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFramework.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFrameworkExtras.EF6.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\ExpressiveAnnotations.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\ExpressiveAnnotations.MvcUnobtrusive.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\SACG.GDALib.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\SACG.sysSacg.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Buffers.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Memory.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Text.Json.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.ValueTuple.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Helpers.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Mvc.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Razor.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\SACG.GDALib.pdb
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\SACG.sysSacg.pdb
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\SACG.sysSacg.dll.config
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFramework.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFrameworkExtras.EF6.pdb
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\EntityFrameworkExtras.EF6.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\ExpressiveAnnotations.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\ExpressiveAnnotations.MvcUnobtrusive.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Buffers.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Memory.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Text.Json.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.ValueTuple.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Helpers.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Mvc.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.Razor.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.csproj.AssemblyReference.cache
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.csproj.CoreCompileInputs.cache
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.csproj.CopyComplete
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.dll
+C:\Users\Rene\Desktop\Projects\indetec-almacenes-requisicion-asp-net-mvc\RequisicionesAlmacenBL\obj\Debug\RequisicionesAlmacenBL.pdb

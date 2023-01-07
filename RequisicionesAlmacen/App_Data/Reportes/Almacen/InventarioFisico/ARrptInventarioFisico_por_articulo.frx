@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<inherited BaseReport="..\..\Encabezados\EncabezadoVertical.frx" BaseReportAbsolutePath="D:\Documentos\Trabajo\Indetec\REQUISICIONES\RequisicionesAlmacen\RequisicionesAlmacen\App_Data\Reportes\Encabezados\EncabezadoVertical.frx" ScriptLanguage="CSharp" DoublePass="true" ReportInfo.Created="08/18/2021 11:33:22" ReportInfo.Modified="08/18/2021 13:50:18" ReportInfo.CreatorVersion="2021.2.13.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqAFHGp6KQj27H4qUwAIR20hSnyrpNtgmeY+I5zyTmYE0HuZfX1hs9fAqnt4DRtzHmTgEuUTNiCrQevjMjaWhdoewJ8X2OevTPo7RJBdOoAWIuspTObahM/2dsJunwOVy8HgqRErGgupEbnnCfw6BdLM1qK79Jywr7s7Xg+Ybvn41NcbOVqlrIX8JHI7Zs0VIWlN2lnM+fH2JYpKQbsYhomg==">
+      <TableDataSource Name="Table" Alias="ARfnRptLibroAlmacen" DataType="System.Int32" Enabled="true" SelectCommand="SELECT * &#13;&#10;FROM ARfnRptLibroAlmacen0(@pAlmacenId) &#13;&#10;ORDER BY Descripcion">
+        <Column Name="ProductoId" DataType="System.String"/>
+        <Column Name="Descripcion" DataType="System.String"/>
+        <Column Name="UnidadMedida" DataType="System.String"/>
+        <CommandParameter Name="@pAlmacenId" DataType="22" Size="4" Expression="[@pAlmacenId]"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+    <Parameter Name="@pEnte" DataType="System.String"/>
+    <Parameter Name="@pAlmacen" DataType="System.String"/>
+    <Parameter Name="@pUsuario" DataType="System.String"/>
+    <Parameter Name="@pAlmacenId" DataType="System.Int32" Expression="1"/>
+  </Dictionary>
+  <inherited Name="Page1">
+    <inherited Name="ReportTitle1" Height="88.86">
+      <inherited Name="Text1"/>
+      <inherited Name="Text2"/>
+      <inherited Name="Text3"/>
+      <inherited Name="Picture2"/>
+    </inherited>
+    <PageHeaderBand Name="PageHeader1" ZOrder="-1" Top="90.95" Width="740.5" Height="56.7">
+      <LineObject Name="Line1" Left="604.8" Height="56.7" Diagonal="true"/>
+      <TextObject Name="Text27" Left="9.45" Width="71.82" Height="18.9" Text="Almacén:" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text25" Left="81.27" Width="434.7" Height="18.9" Text="[@pAlmacen]" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="Text5" Left="9.45" Top="18.9" Width="71.82" Height="18.9" Text="Usuario:" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text7" Left="525.42" Top="18.9" Width="75.6" Height="18.9" Text="Fecha" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text12" Left="601.02" Top="18.9" Width="122.85" Height="18.9" Text="[Date]" Format="Date" Format.Format="d" HorzAlign="Right" Font="Arial, 8pt"/>
+      <TextObject Name="Text26" Left="81.27" Top="18.9" Width="434.7" Height="18.9" Text="[@pUsuario]" VertAlign="Center" Font="Arial, 8pt"/>
+      <TextObject Name="Text8" Left="525.42" Top="37.8" Width="75.6" Height="18.9" Text="Hora" HorzAlign="Right" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text13" Left="601.02" Top="37.8" Width="122.85" Height="18.9" Text="[Date]" Format="Time" Format.Format="T" HorzAlign="Right" Font="Arial, 8pt"/>
+      <TextObject Name="Text23" Left="9.45" Top="37.8" Width="71.82" Height="18.9" Text="Reporte:" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text24" Left="81.27" Top="37.8" Width="434.7" Height="18.9" Text="rptLibroAlmacen" Font="Arial, 8pt"/>
+    </PageHeaderBand>
+    <ColumnHeaderBand Name="ColumnHeader1" ZOrder="-1" Top="149.73" Width="740.5" Height="18.9">
+      <TextObject Name="Text29" Left="9.45" Width="132.3" Height="18.9" Text="PRODUCTO ID" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text32" Left="141.75" Width="359.1" Height="18.9" Text="DESCRIPCIÓN" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text33" Left="500.85" Width="103.95" Height="18.9" Text="UNIDAD MEDIDA" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <TextObject Name="Text36" Left="604.8" Width="122.85" Height="18.9" Text="CONTEO" HorzAlign="Center" VertAlign="Center" Font="Arial, 8pt, style=Bold"/>
+      <LineObject Name="Line3" Left="9.45" Width="718.2"/>
+      <LineObject Name="Line2" Left="9.45" Top="18.9" Width="718.2"/>
+    </ColumnHeaderBand>
+    <DataBand Name="Data1" ZOrder="0" Top="170.72" Width="740.5" Height="18.9" DataSource="Table">
+      <TextObject Name="Text37" Left="9.45" Width="132.3" Height="14.36" Text="[ARfnRptLibroAlmacen.ProductoId]" VertAlign="Bottom" Font="Arial, 7pt"/>
+      <TextObject Name="Text38" Left="141.75" Width="359.1" Height="14.36" CanGrow="true" Text="[ARfnRptLibroAlmacen.Descripcion]" VertAlign="Bottom" Font="Arial, 7pt"/>
+      <TextObject Name="Text39" Left="500.85" Width="103.95" Height="14.36" Text="[ARfnRptLibroAlmacen.UnidadMedida]" HorzAlign="Center" VertAlign="Bottom" Font="Arial, 7pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" ZOrder="-1" Top="191.71" Width="740.5" Height="18.9">
+      <TextObject Name="Text11" Left="633.15" Width="94.5" Height="18.9" CanGrow="true" Text="[PageNofM]" HorzAlign="Right" Font="Arial, 7pt"/>
+    </PageFooterBand>
+  </inherited>
+</inherited>
